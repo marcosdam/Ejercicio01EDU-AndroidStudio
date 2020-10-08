@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".actividades.CrearActivity">
+
+    <EditText
+        android:id="@+id/txtMarcaCrear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:hint="Marca"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtModeloCrear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:hint="Modelo"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtRamCrear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:hint="RAM"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtTamPantallaCrear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:hint="Tamaño de Pantalla"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/txtFechaCompraCrear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:hint="Fecha de Compra"
+        android:inputType="date" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCancelarCrear"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Cancelar" />
+
+        <Button
+            android:id="@+id/btnGuardarCrear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Guardar" />
+    </LinearLayout>
+
+</LinearLayout>
